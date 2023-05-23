@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+   /*height: 100%;*/
+body{
+    background-image: linear-gradient(to right, #8F9BA6,#26261C);
+    font-family: monospace;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+  
+    /*weight / width / heigt*/
+    /* lighter / normal / bold bolder*/
+
+   }
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(80, 65, 47, 0.663) ;
+    padding: 10px;
+    
+}
+h1{
+    color:#734124 ;
+    text-shadow: #26261c9a;
+    text-align: center;
+}
+h2{
+    color: #a68863;
+}
+p{
+    text-align: justify;
+}
