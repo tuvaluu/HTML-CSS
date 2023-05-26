@@ -24,6 +24,7 @@
 }
 
 .cabeçalho {
+    background-image: linear-gradient(to left, var(--cor5), var(--cor2), var(--cor3));
     background-color: black;
     color: white;
     padding: 20px;
