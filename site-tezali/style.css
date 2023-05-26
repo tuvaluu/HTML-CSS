@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Didact +Gothic & display=swap');
+
+:root {
+
+    --cor1: #B69700;
+    --cor2: #FFD300;
+    --cor3: #393000;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1:'Didact Gothic', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    background-color: black;
+    color: white;
+    padding: 50px;
+
+}
+
+nav > a {
+    color: white;
+    text-align: right;
+    font-family: var(--fonte1);
+    padding: 20px;
+
+}
+
+.navegaçao {
+    color: white;
+    text-align: right;
+    font-family: var(--fonte1);
+    padding: 20px;
+}
+
+header > nav {
+    color: white;
+}
+
+.principal {
+    background-color: ;
+}
+
+.rodape {
+    margin-top: 20px;
+    background-color: black;
+    padding: 50px;
+    
+    margin: auto;
+}
+.logo-rodape {
+    
+    width: 50px;
+    height: 50px;
+}
