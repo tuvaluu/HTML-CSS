@@ -7,6 +7,11 @@
     --cor1: #B69700;
     --cor2: #FFD300;
     --cor3: #393000;
+    --corfundo: #F5F4C7;
+    --cor5: #d6d075;
+    --cor6: #05C7F2;
+    --cor7: #F2059F;
+    --cor8: #0D0D0D;
     --fonte0: Arial, Helvetica, sans-serif;
     --fonte1:'Didact Gothic', sans-serif;
 
@@ -21,7 +26,13 @@
 .cabeçalho {
     background-color: black;
     color: white;
-    padding: 50px;
+    padding: 20px;
+    
+
+}
+
+.logo-cabeçalho {
+    height: 100px;
 
 }
 
@@ -29,6 +40,7 @@ nav > a {
     color: white;
     text-align: right;
     font-family: var(--fonte1);
+    font-size: 1.1em;
     padding: 20px;
 
 }
@@ -44,19 +56,42 @@ header > nav {
     color: white;
 }
 
-.principal {
-    background-color: ;
+body {
+    background-color: var(--corfundo)
+}
+
+main {
+    background-color: white ;
+    max-width: 800px;
+    min-width: 300px;
+    height: 1000px;
+    margin:auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.384);
+
+}
+
+
+footer {
+    margin-top: 0px;
 }
 
 .rodape {
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: black;
-    padding: 50px;
+    padding: 30px;
+    text-align: right;
     
-    margin: auto;
+   
 }
 .logo-rodape {
+    display: inline-block;
+    margin: auto;
     
-    width: 50px;
-    height: 50px;
+   
+    height: 30px;
 }
