@@ -74,7 +74,7 @@ section {
 
 .imagem{
     height: 58vh;
-    background-image: url(imagens/background001.jpg);
+    
     background-size: cover;
     background-position: fixed;
     color: white;
@@ -83,9 +83,18 @@ section {
     
 }
 
+.imagem#img1 {
+    background-image: url(imagens/background001.jpg);
+
+}
+.imagem#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.356);
     width: 300px;
+    flex
 
 }
 footer {
