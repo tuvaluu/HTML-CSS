@@ -66,6 +66,12 @@ section {
     font-size: 1.1em;
 }
 
+section > p {
+    padding-bottom: 2em;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
 .normal {
     
    color: black;
@@ -73,11 +79,13 @@ section {
 }
 
 .imagem{
-    height: 58vh;
-    
+    height: 48vh;
+    width:  98vw;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+    text-shadow: 1px 1px 1px black;
    
 
     
@@ -94,7 +102,6 @@ section {
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.356);
     width: 300px;
-    flex
 
 }
 footer {
